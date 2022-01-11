@@ -23,5 +23,8 @@ $(OBJ_DIR)/%.o: %.cpp
 
 .PHONY:clean
 clean:
-	rm -f $(OBJ_DIR)/*.o $(BIN_DIR)/*.exe
+	-if exist $(BIN_DIR)\*.exe del $(BIN_DIR)\*.exe
+	-if exist $(OBJ_DIR)\*.o del $(OBJ_DIR)\*.o
+	
+
 
