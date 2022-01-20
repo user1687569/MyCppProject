@@ -10,21 +10,16 @@ int main()
     std::cin >> rows;
 
     for(i = 0; i < rows; i++)
-    {
-        if(i != rows - 1)
+    {   
+        for(j = 1; j < rows - i; j++)
         {
-            for(j = 0; j < rows - i; j++)
-                std::cout << '.' << ' ';
-            
-            for(j = 0; j < i; j++)
-                std::cout << '*' << ' ';
+            std::cout << '.' << ' ';
         }
-        else
+        for(j = 0; j < i + 1; j++)
         {
-            for(j = 0; j < rows; j++)
-                std::cout << '*' << ' ';
+            std::cout << '*' << ' ';
         }
-        
+
         std::cout << std::endl;
     }
 
