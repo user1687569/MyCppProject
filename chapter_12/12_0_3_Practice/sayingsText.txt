@@ -1,0 +1,17 @@
+Hi, what's your name?
+<<Blockchain Lee, please enter up to 10 short sayings <empty line to quit>: 
+Here are your sayings: 
+F: Fortune favors the bold.
+I: I think, therefore I am.
+T: Time is money.
+I: I came, I saw, I conquered.
+W: When life gives you lemons, make lemonade.
+P: Practice makes perfect.
+K: Knowledge is powe.
+Shortest saying: 
+Time is money.
+First alphabetically: 
+Fortune favors the bold.
+This program used 11 String objects. Bye.
+My favorite saying: 
+When life gives you lemons, make lemonade.
