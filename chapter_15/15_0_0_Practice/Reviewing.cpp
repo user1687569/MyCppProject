@@ -41,7 +41,8 @@ C++有3个支持RTTI的元素
 C++更严格地限制允许的类型转换，并添加4个类型转换运算符，使转换过程更规范：
 dynamic_cast   用途：使得能够在类层次结构中进行向上转换(由于is-a关系，这样的类型转换是安全的)，而不允许其他转换
 const_cast     用途：改变值为 const 或 volatile
-static_cast
+static_cast    用途：static_cast可进行数值转换，可以将整型转换为枚举值。static_cast还可用于将double转换为int, 将float转换为long以及其他各种数值转换
+static_cast <type-name> (expression): 仅当type_name可被隐式转换为expression所属的类型或expression可被隐式转换为type_name所属的类型时，上述转换才合法
 reinterpret_cast  用于天生危险的类型转换
 
 

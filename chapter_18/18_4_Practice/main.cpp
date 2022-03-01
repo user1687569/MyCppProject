@@ -4,8 +4,9 @@
 #include <iterator>
 #include <algorithm>    // std::copy
 
+auto outint = [](int n) { std::cout << n << " "; };
 
-void outint(int n)  { std::cout << n << " "; }
+// void outint(int n)  { std::cout << n << " "; }
 
 int main()
 {
@@ -61,4 +62,6 @@ int main()
 
     return 0;
 }
+
+
 
